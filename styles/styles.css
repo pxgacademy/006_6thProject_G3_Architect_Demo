@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* global styles started */
-.root{
+:root{
     --darkOne: rgba(19, 19, 19, 1);
     --darkTwo: rgba(66, 66, 66, 1);
     --darkThree: rgba(114, 114, 114, 1);
     --lightColor: rgba(255, 255, 255, 1);
     --btnColor: rgba(255, 144, 14, 1);
+    --bgColor: rgba(255, 144, 14, 0.1);
 }
 
 *{
@@ -40,3 +41,55 @@ h2{
     font-weight: 700;
 }
 /* golbal styles ended */
+
+/* header section styles started */
+#header_section{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 45px;
+    box-sizing: border-box;
+    background-color: var(--bgColor);
+    border: 1px solid red;
+}
+
+#navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand_name{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--darkOne);
+}
+
+#nav_items{
+    display: flex; 
+}
+
+#nav_items > li{
+    list-style: none;
+    margin-left: 30px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#nav_items > li:hover{
+    border: 1px solid var(--darkThree);
+}
+
+#nav_items > li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 144%;
+    color: var(--darkTwo);
+}
+
+/* header section styles ended */
