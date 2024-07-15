@@ -51,6 +51,10 @@ h2{
     font-size: 45px;
     font-weight: 700;
 }
+
+.hide{
+    display: none;
+}
 /* golbal styles ended */
 
 /* header section styles started */
@@ -130,3 +134,64 @@ h2{
     margin-top: 50px;
 }
 /* header section styles ended */
+
+/* responsive header section */
+
+@media screen and (max-width: 576px) {
+    .primary_btn{
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+    }
+
+    #header_section{
+        padding: 20px;
+    }
+
+    #navbar{
+        max-width: 536px;
+        flex-direction: column;
+    }
+
+    .brand_name{
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    
+    #nav_items{
+        margin-top: 15px;
+    }
+
+    #nav_items > li{
+        margin-left: 20px;
+        padding: 0;
+        border: none;
+    }
+    
+    #nav_items > li a{
+        font-size: 1rem;
+    }
+
+    /* banner section */
+
+    #banner{
+        margin-top: 30px;
+    }
+    
+    .banner_content{
+        max-width: 536px;
+    }
+    
+    .banner_content h1{
+        font-size: 2rem;
+    }
+    
+    .banner_content p{
+        margin: 10px 0px;
+    }
+    
+    #banner > img{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
