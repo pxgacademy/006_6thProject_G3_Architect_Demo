@@ -15,11 +15,15 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 160%;
     font-style: normal;
 
     max-width: 1920px;
@@ -33,7 +37,14 @@ body{
     font-size: 1.25rem;
     font-weight: 600;
     border-radius: 8px;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: 0.3s;
+}
+
+.primary_btn:hover{
+    border: 1px solid var(--btnColor);
+    background-color: var(--lightColor);
+    color: var(--btnColor);
 }
 
 h2{
@@ -49,7 +60,6 @@ h2{
     padding: 45px;
     box-sizing: border-box;
     background-color: var(--bgColor);
-    border: 1px solid red;
 }
 
 #navbar{
@@ -62,7 +72,7 @@ h2{
 
 .brand_name{
     font-weight: 700;
-    font-size: 45px;
+    font-size: 3rem;
     color: var(--darkOne);
 }
 
@@ -87,9 +97,36 @@ h2{
 #nav_items > li a{
     text-decoration: none;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 144%;
+    font-size: 1.1rem;
     color: var(--darkTwo);
 }
 
+/* banner section styles */
+#banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.banner_content{
+    max-width: 850px;
+    margin: 0   auto;
+    text-align: center;
+}
+
+.banner_content h1{
+    font-weight: 700;
+    font-size: 4rem;
+    color: var(--darkOne);
+    line-height: 110%;
+}
+
+.banner_content p{
+    margin: 25px 0px;
+}
+
+#banner > img{
+    width: 100%;
+    margin-top: 50px;
+}
 /* header section styles ended */
