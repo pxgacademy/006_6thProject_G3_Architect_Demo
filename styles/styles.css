@@ -49,7 +49,7 @@ body{
 
 h2{
     color: var(--darkOne);
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 130%;
 }
@@ -176,6 +176,11 @@ h2{
 /* responsive sections */
 
 @media screen and (max-width: 576px) {
+    h2{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 130%;
+    }
     .primary_btn{
         padding: 10px 20px;
         font-size: 1rem;
@@ -232,4 +237,25 @@ h2{
         width: 100%;
         margin-top: 30px;
     }
+
+    /* quick-list section */
+    #quick_list{
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    
+    .quick_list_imgs{
+        gap: 10px;
+        width: 100%;
+    }
+    .quick_list_imgs img{
+        width: 100%;
+    }
+    
+    .quick_list_content{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
 }
