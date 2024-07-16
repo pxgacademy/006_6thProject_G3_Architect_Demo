@@ -25,7 +25,6 @@ body {
   font-size: 16px;
   line-height: 160%;
   font-style: normal;
-
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -208,7 +207,7 @@ h2 {
 
 .features_card h3 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.2rem;
   color: var(--darkOne);
   margin-bottom: 10px;
 }
@@ -224,17 +223,64 @@ h2 {
   width: 340px;
   height: 200px;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 2.9rem;
   line-height: 108%;
   margin: -80px 0px 0px -100px;
 }
 .features_img button span {
   font-weight: 700;
-  font-size: 65px;
+  font-size: 4rem;
   line-height: 108%;
 }
-
 /* features section styles ended */
+
+/* facts section styles started */
+#facts_section {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.facts_content {
+  max-width: 545px;
+}
+.facts_content p {
+  color: var(--darkThree);
+}
+
+#facts_boxes {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.facts_items {
+  height: 240px;
+  border: 1px solid var(--btnColor);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.facts_card p {
+  font-size: 3rem;
+  line-height: 120%;
+  font-weight: 600;
+  color: var(--darkTwo);
+}
+.facts_card span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--darkThree);
+}
+/* facts section styles ended */
 
 /* responsive sections */
 
