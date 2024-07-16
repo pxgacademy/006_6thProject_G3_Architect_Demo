@@ -319,6 +319,25 @@ h2 {
 }
 /* sponsors section styles ended */
 
+/* footer section */
+#footer_section{
+  width: 100%;
+  max-width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgba(255, 244, 231, 1);
+  margin-top: 130px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
 /* responsive sections */
 
 @media screen and (max-width: 576px) {
@@ -478,4 +497,12 @@ h2 {
   .logo img {
     filter: grayscale(0%);
   }
+
+  /* footer section */
+#footer_section{
+  max-width: 576px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
 }
