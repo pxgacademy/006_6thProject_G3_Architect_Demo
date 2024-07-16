@@ -282,6 +282,34 @@ h2 {
 }
 /* facts section styles ended */
 
+/* sponsors section styles started */
+#sponsors_section {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsors_content {
+  max-width: 545px;
+  text-align: center;
+}
+
+.logo{
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 182px);
+  justify-content: space-between;
+  text-align: center;
+}
+/* sponsors section styles ended */
+
 /* responsive sections */
 
 @media screen and (max-width: 576px) {
